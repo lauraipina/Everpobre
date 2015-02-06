@@ -2,6 +2,7 @@
 // Make changes to LIPPhotoContainer.h instead.
 
 @import CoreData;
+#import "LIPEverpobreBaseClass.h"
 
 extern const struct LIPPhotoContainerAttributes {
 	__unsafe_unretained NSString *photoData;
@@ -16,7 +17,7 @@ extern const struct LIPPhotoContainerRelationships {
 @interface LIPPhotoContainerID : NSManagedObjectID {}
 @end
 
-@interface _LIPPhotoContainer : NSManagedObject {}
+@interface _LIPPhotoContainer : LIPEverpobreBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;

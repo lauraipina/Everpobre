@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class LIPNote;
+
 @interface LIPTextTableViewCell : UITableViewCell
+
++(CGFloat)height;
++(NSString *)cellId;
+
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+
+@property (nonatomic, strong) LIPNote *note;
 
 @end

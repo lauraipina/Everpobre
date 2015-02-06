@@ -10,4 +10,12 @@
 
 @interface LIPNotebookTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *nameView;
+
+@property (weak, nonatomic) IBOutlet UILabel *notesView;
+
+//CGFloat = Numero de coma flotante
++(CGFloat)height;
++(NSString *)cellId;
+
 @end

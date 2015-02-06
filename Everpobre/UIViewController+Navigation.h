@@ -10,4 +10,6 @@
 
 @interface UIViewController (Navigation)
 
+-(UINavigationController *) lipWrappedNavigation;
+
 @end

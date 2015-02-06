@@ -7,7 +7,10 @@
 //
 
 #import "AGTCoreDataTableViewController.h"
+#import "LIPNotebook.h"
 
 @interface LIPNotesViewController : AGTCoreDataTableViewController
+
+@property (strong, nonatomic) LIPNotebook *notebook;
 
 @end

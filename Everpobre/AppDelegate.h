@@ -5,8 +5,7 @@
 //  Created by Laura Iglesias Piña on 2/2/15.
 //  Copyright (c) 2015 lip. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

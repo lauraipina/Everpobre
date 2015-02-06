@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@class LIPNote;
+
 @interface LIPPhotoTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
+
++(CGFloat)height;
++(NSString *)cellId;
+
+@property (nonatomic, strong) LIPNote *note;
+
 
 @end

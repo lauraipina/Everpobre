@@ -7,11 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001BA89E1A821F870047620C /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001BA89D1A821F870047620C /* AGTCoreDataTableViewController.m */; };
+		001BA8A31A8220830047620C /* LIPNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001BA8A11A8220830047620C /* LIPNotebookViewController.m */; };
+		001BA8A81A823E080047620C /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 001BA8A71A823E080047620C /* UIViewController+Navigation.m */; };
+		001BA8AC1A82436E0047620C /* LIPNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001BA8AB1A82436E0047620C /* LIPNotesViewController.m */; };
 		006652821A7F91690057C15A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652811A7F91690057C15A /* main.m */; };
 		006652851A7F91690057C15A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652841A7F91690057C15A /* AppDelegate.m */; };
 		006652871A7F91690057C15A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006652861A7F91690057C15A /* Images.xcassets */; };
 		0066528A1A7F91690057C15A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006652881A7F91690057C15A /* LaunchScreen.xib */; };
 		006652961A7F91690057C15A /* EverpobreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652951A7F91690057C15A /* EverpobreTests.m */; };
+		006652A11A7F957B0057C15A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0066529F1A7F957B0057C15A /* Model.xcdatamodeld */; };
+		006652AF1A7FAB2F0057C15A /* _LIPNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652A41A7FAB2F0057C15A /* _LIPNote.m */; };
+		006652B01A7FAB2F0057C15A /* _LIPNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652A61A7FAB2F0057C15A /* _LIPNotebook.m */; };
+		006652B11A7FAB2F0057C15A /* _LIPPhotoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652A81A7FAB2F0057C15A /* _LIPPhotoContainer.m */; };
+		006652B21A7FAB2F0057C15A /* LIPNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652AA1A7FAB2F0057C15A /* LIPNote.m */; };
+		006652B31A7FAB2F0057C15A /* LIPNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652AC1A7FAB2F0057C15A /* LIPNotebook.m */; };
+		006652B41A7FAB2F0057C15A /* LIPPhotoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 006652AE1A7FAB2F0057C15A /* LIPPhotoContainer.m */; };
+		00A2895F1A80CBB5007690C6 /* LIPEverpobreBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A2895E1A80CBB5007690C6 /* LIPEverpobreBaseClass.m */; };
+		00A289621A80D6CF007690C6 /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A289611A80D6CF007690C6 /* AGTCoreDataStack.m */; };
+		00CEBC721A836E51007B6B89 /* LIPNotebookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC701A836E51007B6B89 /* LIPNotebookTableViewCell.m */; };
+		00CEBC731A836E51007B6B89 /* LIPNotebookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC711A836E51007B6B89 /* LIPNotebookTableViewCell.xib */; };
+		00CEBC781A83785F007B6B89 /* LIPPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC761A83785F007B6B89 /* LIPPhotoTableViewCell.m */; };
+		00CEBC791A83785F007B6B89 /* LIPPhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC771A83785F007B6B89 /* LIPPhotoTableViewCell.xib */; };
+		00CEBC7D1A83794D007B6B89 /* LIPTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC7B1A83794D007B6B89 /* LIPTextTableViewCell.m */; };
+		00CEBC7E1A83794D007B6B89 /* LIPTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC7C1A83794D007B6B89 /* LIPTextTableViewCell.xib */; };
+		00CEBC821A837B00007B6B89 /* LIPDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC801A837B00007B6B89 /* LIPDateTableViewCell.m */; };
+		00CEBC831A837B00007B6B89 /* LIPDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC811A837B00007B6B89 /* LIPDateTableViewCell.xib */; };
+		00CEBC871A837C1E007B6B89 /* LIPNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC851A837C1E007B6B89 /* LIPNameTableViewCell.m */; };
+		00CEBC881A837C1E007B6B89 /* LIPNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC861A837C1E007B6B89 /* LIPNameTableViewCell.xib */; };
+		00CEBC8B1A837D87007B6B89 /* LIPNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC8A1A837D87007B6B89 /* LIPNoteViewController.m */; };
+		00CEBC8F1A83A716007B6B89 /* LIPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEBC8D1A83A716007B6B89 /* LIPPhotoViewController.m */; };
+		00CEBC901A83A716007B6B89 /* LIPPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC8E1A83A716007B6B89 /* LIPPhotoViewController.xib */; };
+		00CEBC921A83A9A7007B6B89 /* imagen-no-disponible.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00CEBC911A83A9A7007B6B89 /* imagen-no-disponible.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001BA89C1A821F870047620C /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		001BA89D1A821F870047620C /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		001BA8A01A8220830047620C /* LIPNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIPNotebookViewController.h; path = ../LIPNotebookViewController.h; sourceTree = "<group>"; };
+		001BA8A11A8220830047620C /* LIPNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIPNotebookViewController.m; path = ../LIPNotebookViewController.m; sourceTree = "<group>"; };
+		001BA8A61A823E080047620C /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		001BA8A71A823E080047620C /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		001BA8AA1A82436E0047620C /* LIPNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNotesViewController.h; sourceTree = "<group>"; };
+		001BA8AB1A82436E0047620C /* LIPNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNotesViewController.m; sourceTree = "<group>"; };
 		0066527C1A7F91690057C15A /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006652801A7F91690057C15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006652811A7F91690057C15A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +70,44 @@
 		0066528F1A7F91690057C15A /* EverpobreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverpobreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006652941A7F91690057C15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006652951A7F91690057C15A /* EverpobreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverpobreTests.m; sourceTree = "<group>"; };
+		006652A01A7F957B0057C15A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		006652A31A7FAB2F0057C15A /* _LIPNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LIPNote.h; sourceTree = "<group>"; };
+		006652A41A7FAB2F0057C15A /* _LIPNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LIPNote.m; sourceTree = "<group>"; };
+		006652A51A7FAB2F0057C15A /* _LIPNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LIPNotebook.h; sourceTree = "<group>"; };
+		006652A61A7FAB2F0057C15A /* _LIPNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LIPNotebook.m; sourceTree = "<group>"; };
+		006652A71A7FAB2F0057C15A /* _LIPPhotoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _LIPPhotoContainer.h; sourceTree = "<group>"; };
+		006652A81A7FAB2F0057C15A /* _LIPPhotoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LIPPhotoContainer.m; sourceTree = "<group>"; };
+		006652A91A7FAB2F0057C15A /* LIPNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNote.h; sourceTree = "<group>"; };
+		006652AA1A7FAB2F0057C15A /* LIPNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNote.m; sourceTree = "<group>"; };
+		006652AB1A7FAB2F0057C15A /* LIPNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNotebook.h; sourceTree = "<group>"; };
+		006652AC1A7FAB2F0057C15A /* LIPNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNotebook.m; sourceTree = "<group>"; };
+		006652AD1A7FAB2F0057C15A /* LIPPhotoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPPhotoContainer.h; sourceTree = "<group>"; };
+		006652AE1A7FAB2F0057C15A /* LIPPhotoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPPhotoContainer.m; sourceTree = "<group>"; };
+		00A2895D1A80CBB5007690C6 /* LIPEverpobreBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPEverpobreBaseClass.h; sourceTree = "<group>"; };
+		00A2895E1A80CBB5007690C6 /* LIPEverpobreBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPEverpobreBaseClass.m; sourceTree = "<group>"; };
+		00A289601A80D6CF007690C6 /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		00A289611A80D6CF007690C6 /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		00CEBC6F1A836E51007B6B89 /* LIPNotebookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNotebookTableViewCell.h; sourceTree = "<group>"; };
+		00CEBC701A836E51007B6B89 /* LIPNotebookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNotebookTableViewCell.m; sourceTree = "<group>"; };
+		00CEBC711A836E51007B6B89 /* LIPNotebookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPNotebookTableViewCell.xib; sourceTree = "<group>"; };
+		00CEBC751A83785F007B6B89 /* LIPPhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPPhotoTableViewCell.h; sourceTree = "<group>"; };
+		00CEBC761A83785F007B6B89 /* LIPPhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPPhotoTableViewCell.m; sourceTree = "<group>"; };
+		00CEBC771A83785F007B6B89 /* LIPPhotoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPPhotoTableViewCell.xib; sourceTree = "<group>"; };
+		00CEBC7A1A83794D007B6B89 /* LIPTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPTextTableViewCell.h; sourceTree = "<group>"; };
+		00CEBC7B1A83794D007B6B89 /* LIPTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPTextTableViewCell.m; sourceTree = "<group>"; };
+		00CEBC7C1A83794D007B6B89 /* LIPTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPTextTableViewCell.xib; sourceTree = "<group>"; };
+		00CEBC7F1A837B00007B6B89 /* LIPDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPDateTableViewCell.h; sourceTree = "<group>"; };
+		00CEBC801A837B00007B6B89 /* LIPDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPDateTableViewCell.m; sourceTree = "<group>"; };
+		00CEBC811A837B00007B6B89 /* LIPDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPDateTableViewCell.xib; sourceTree = "<group>"; };
+		00CEBC841A837C1E007B6B89 /* LIPNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNameTableViewCell.h; sourceTree = "<group>"; };
+		00CEBC851A837C1E007B6B89 /* LIPNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNameTableViewCell.m; sourceTree = "<group>"; };
+		00CEBC861A837C1E007B6B89 /* LIPNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPNameTableViewCell.xib; sourceTree = "<group>"; };
+		00CEBC891A837D87007B6B89 /* LIPNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPNoteViewController.h; sourceTree = "<group>"; };
+		00CEBC8A1A837D87007B6B89 /* LIPNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPNoteViewController.m; sourceTree = "<group>"; };
+		00CEBC8C1A83A715007B6B89 /* LIPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIPPhotoViewController.h; sourceTree = "<group>"; };
+		00CEBC8D1A83A716007B6B89 /* LIPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIPPhotoViewController.m; sourceTree = "<group>"; };
+		00CEBC8E1A83A716007B6B89 /* LIPPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIPPhotoViewController.xib; sourceTree = "<group>"; };
+		00CEBC911A83A9A7007B6B89 /* imagen-no-disponible.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "imagen-no-disponible.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +128,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001BA89F1A821F9B0047620C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				001BA89C1A821F870047620C /* AGTCoreDataTableViewController.h */,
+				001BA89D1A821F870047620C /* AGTCoreDataTableViewController.m */,
+				001BA8A01A8220830047620C /* LIPNotebookViewController.h */,
+				001BA8A11A8220830047620C /* LIPNotebookViewController.m */,
+				001BA8AA1A82436E0047620C /* LIPNotesViewController.h */,
+				001BA8AB1A82436E0047620C /* LIPNotesViewController.m */,
+				00CEBC891A837D87007B6B89 /* LIPNoteViewController.h */,
+				00CEBC8A1A837D87007B6B89 /* LIPNoteViewController.m */,
+				00CEBC8C1A83A715007B6B89 /* LIPPhotoViewController.h */,
+				00CEBC8D1A83A716007B6B89 /* LIPPhotoViewController.m */,
+				00CEBC8E1A83A716007B6B89 /* LIPPhotoViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		001BA8A91A823E110047620C /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				001BA8A61A823E080047620C /* UIViewController+Navigation.h */,
+				001BA8A71A823E080047620C /* UIViewController+Navigation.m */,
+			);
+			name = Categorias;
+			sourceTree = "<group>";
+		};
 		006652731A7F91690057C15A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +178,11 @@
 			children = (
 				006652831A7F91690057C15A /* AppDelegate.h */,
 				006652841A7F91690057C15A /* AppDelegate.m */,
+				00CEBC911A83A9A7007B6B89 /* imagen-no-disponible.gif */,
+				006652A21A7F95830057C15A /* Model */,
+				001BA8A91A823E110047620C /* Categorias */,
+				001BA89F1A821F9B0047620C /* Controllers */,
+				00CEBC741A836E5A007B6B89 /* Cell */,
 				006652861A7F91690057C15A /* Images.xcassets */,
 				006652881A7F91690057C15A /* LaunchScreen.xib */,
 				0066527F1A7F91690057C15A /* Supporting Files */,
@@ -109,6 +214,60 @@
 				006652941A7F91690057C15A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		006652A21A7F95830057C15A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A289601A80D6CF007690C6 /* AGTCoreDataStack.h */,
+				00A289611A80D6CF007690C6 /* AGTCoreDataStack.m */,
+				006652B51A7FABDF0057C15A /* Machine */,
+				00A2895D1A80CBB5007690C6 /* LIPEverpobreBaseClass.h */,
+				00A2895E1A80CBB5007690C6 /* LIPEverpobreBaseClass.m */,
+				006652A91A7FAB2F0057C15A /* LIPNote.h */,
+				006652AA1A7FAB2F0057C15A /* LIPNote.m */,
+				006652AB1A7FAB2F0057C15A /* LIPNotebook.h */,
+				006652AC1A7FAB2F0057C15A /* LIPNotebook.m */,
+				006652AD1A7FAB2F0057C15A /* LIPPhotoContainer.h */,
+				006652AE1A7FAB2F0057C15A /* LIPPhotoContainer.m */,
+				0066529F1A7F957B0057C15A /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		006652B51A7FABDF0057C15A /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				006652A31A7FAB2F0057C15A /* _LIPNote.h */,
+				006652A41A7FAB2F0057C15A /* _LIPNote.m */,
+				006652A51A7FAB2F0057C15A /* _LIPNotebook.h */,
+				006652A61A7FAB2F0057C15A /* _LIPNotebook.m */,
+				006652A71A7FAB2F0057C15A /* _LIPPhotoContainer.h */,
+				006652A81A7FAB2F0057C15A /* _LIPPhotoContainer.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		00CEBC741A836E5A007B6B89 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				00CEBC6F1A836E51007B6B89 /* LIPNotebookTableViewCell.h */,
+				00CEBC701A836E51007B6B89 /* LIPNotebookTableViewCell.m */,
+				00CEBC711A836E51007B6B89 /* LIPNotebookTableViewCell.xib */,
+				00CEBC751A83785F007B6B89 /* LIPPhotoTableViewCell.h */,
+				00CEBC761A83785F007B6B89 /* LIPPhotoTableViewCell.m */,
+				00CEBC771A83785F007B6B89 /* LIPPhotoTableViewCell.xib */,
+				00CEBC7A1A83794D007B6B89 /* LIPTextTableViewCell.h */,
+				00CEBC7B1A83794D007B6B89 /* LIPTextTableViewCell.m */,
+				00CEBC7C1A83794D007B6B89 /* LIPTextTableViewCell.xib */,
+				00CEBC7F1A837B00007B6B89 /* LIPDateTableViewCell.h */,
+				00CEBC801A837B00007B6B89 /* LIPDateTableViewCell.m */,
+				00CEBC811A837B00007B6B89 /* LIPDateTableViewCell.xib */,
+				00CEBC841A837C1E007B6B89 /* LIPNameTableViewCell.h */,
+				00CEBC851A837C1E007B6B89 /* LIPNameTableViewCell.m */,
+				00CEBC861A837C1E007B6B89 /* LIPNameTableViewCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +350,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CEBC921A83A9A7007B6B89 /* imagen-no-disponible.gif in Resources */,
+				00CEBC7E1A83794D007B6B89 /* LIPTextTableViewCell.xib in Resources */,
+				00CEBC901A83A716007B6B89 /* LIPPhotoViewController.xib in Resources */,
+				00CEBC791A83785F007B6B89 /* LIPPhotoTableViewCell.xib in Resources */,
 				0066528A1A7F91690057C15A /* LaunchScreen.xib in Resources */,
+				00CEBC731A836E51007B6B89 /* LIPNotebookTableViewCell.xib in Resources */,
+				00CEBC881A837C1E007B6B89 /* LIPNameTableViewCell.xib in Resources */,
 				006652871A7F91690057C15A /* Images.xcassets in Resources */,
+				00CEBC831A837B00007B6B89 /* LIPDateTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +376,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001BA8A31A8220830047620C /* LIPNotebookViewController.m in Sources */,
+				00A289621A80D6CF007690C6 /* AGTCoreDataStack.m in Sources */,
 				006652851A7F91690057C15A /* AppDelegate.m in Sources */,
+				00CEBC821A837B00007B6B89 /* LIPDateTableViewCell.m in Sources */,
+				001BA89E1A821F870047620C /* AGTCoreDataTableViewController.m in Sources */,
+				00CEBC781A83785F007B6B89 /* LIPPhotoTableViewCell.m in Sources */,
+				001BA8AC1A82436E0047620C /* LIPNotesViewController.m in Sources */,
+				001BA8A81A823E080047620C /* UIViewController+Navigation.m in Sources */,
+				00CEBC8B1A837D87007B6B89 /* LIPNoteViewController.m in Sources */,
+				00CEBC8F1A83A716007B6B89 /* LIPPhotoViewController.m in Sources */,
+				006652B21A7FAB2F0057C15A /* LIPNote.m in Sources */,
+				006652B41A7FAB2F0057C15A /* LIPPhotoContainer.m in Sources */,
 				006652821A7F91690057C15A /* main.m in Sources */,
+				00CEBC7D1A83794D007B6B89 /* LIPTextTableViewCell.m in Sources */,
+				006652B11A7FAB2F0057C15A /* _LIPPhotoContainer.m in Sources */,
+				006652B01A7FAB2F0057C15A /* _LIPNotebook.m in Sources */,
+				006652A11A7F957B0057C15A /* Model.xcdatamodeld in Sources */,
+				006652B31A7FAB2F0057C15A /* LIPNotebook.m in Sources */,
+				00A2895F1A80CBB5007690C6 /* LIPEverpobreBaseClass.m in Sources */,
+				00CEBC721A836E51007B6B89 /* LIPNotebookTableViewCell.m in Sources */,
+				006652AF1A7FAB2F0057C15A /* _LIPNote.m in Sources */,
+				00CEBC871A837C1E007B6B89 /* LIPNameTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +580,7 @@
 				0066529B1A7F91690057C15A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0066529C1A7F91690057C15A /* Build configuration list for PBXNativeTarget "EverpobreTests" */ = {
 			isa = XCConfigurationList;
@@ -402,8 +589,22 @@
 				0066529E1A7F91690057C15A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0066529F1A7F957B0057C15A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				006652A01A7F957B0057C15A /* Model.xcdatamodel */,
+			);
+			currentVersion = 006652A01A7F957B0057C15A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 006652741A7F91690057C15A /* Project object */;
 }

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class LIPNote;
+
 @interface LIPNoteViewController : UITableViewController
+
+@property (nonatomic, strong) LIPNote *note;
+
+-(id) initWithModel:(LIPNote *) model;
+
 
 @end

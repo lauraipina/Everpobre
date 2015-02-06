@@ -6,17 +6,47 @@
 //  Copyright (c) 2015 lip. All rights reserved.
 //
 
-#import "PhotoViewController.h"
+#import "LIPPhotoViewController.h"
+#import "LIPNote.h"
+#import "LIPPhotoContainer.h"
 
-@interface PhotoViewController ()
+@interface LIPPhotoViewController ()
 
 @end
 
-@implementation PhotoViewController
+@implementation LIPPhotoViewController
+
+
+-(id) initWithModel:(LIPNote *) note{
+    
+    if (self == [super initWithNibName:nil bundle:nil]) {
+        _note = note;
+    }
+    
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+    //sincronizamos modelo con vista
+    self.photoView.image = self.note.photo.image;
+    
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    
+    [super viewWillDisappear:animated];
+    
+    //sincronizamos vista con modelo
+    self.note.photo.image = self.photoView.image;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +64,9 @@
 }
 */
 
+- (IBAction)deletePhoto:(id)sender {
+}
+
+- (IBAction)takePhoto:(id)sender {
+}
 @end

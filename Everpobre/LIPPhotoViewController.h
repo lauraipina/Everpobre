@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PhotoViewController : UIViewController
+@class LIPNote;
+
+@interface LIPPhotoViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
+
+- (IBAction)deletePhoto:(id)sender;
+
+- (IBAction)takePhoto:(id)sender;
+
+@property (nonatomic, strong) LIPNote *note;
+-(id) initWithModel:(LIPNote *) note;
 
 @end

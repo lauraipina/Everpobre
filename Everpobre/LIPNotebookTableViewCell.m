@@ -10,10 +10,23 @@
 
 @implementation LIPNotebookTableViewCell
 
++(CGFloat)height{
+    
+    return 60.0f;
+}
+
++(NSString *)cellId{
+    
+    return [self description];
+    
+}
+
+//CORE DATA - no se usa
 - (void)awakeFromNib {
     // Initialization code
 }
 
+//Aqui te avisan si te están seleccionando la celda o no --> para cambiar las fuentes, etc.. al seleccionar
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

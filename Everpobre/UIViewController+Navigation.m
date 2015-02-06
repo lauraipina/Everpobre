@@ -10,4 +10,16 @@
 
 @implementation UIViewController (Navigation)
 
+
+-(UINavigationController *) lipWrappedNavigation{
+    
+    UINavigationController *nav = [UINavigationController new];
+    
+    //Me devuelvo a mi mismo dentro de un navigationController
+    [nav pushViewController:self
+                   animated:NO];
+    
+    return nav;
+}
+
 @end

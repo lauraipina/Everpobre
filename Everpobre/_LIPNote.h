@@ -2,6 +2,7 @@
 // Make changes to LIPNote.h instead.
 
 @import CoreData;
+#import "LIPEverpobreBaseClass.h"
 
 extern const struct LIPNoteAttributes {
 	__unsafe_unretained NSString *creationDate;
@@ -21,7 +22,7 @@ extern const struct LIPNoteRelationships {
 @interface LIPNoteID : NSManagedObjectID {}
 @end
 
-@interface _LIPNote : NSManagedObject {}
+@interface _LIPNote : LIPEverpobreBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;

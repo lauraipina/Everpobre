@@ -26,6 +26,8 @@
 
 
 
+// fetchedResultsController - Hace las preguntas de la tabla, la refresca si hay cambios, etc..
+// no lo usamos directamente, heredamos de el
 
 // The controller (this class fetches nothing if this is not set).
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
